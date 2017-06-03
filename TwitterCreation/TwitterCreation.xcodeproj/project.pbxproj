@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1BCA6F591EDBBB5C00F86626 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCA6F581EDBBB5C00F86626 /* AppDelegate.swift */; };
-		1BCA6F5B1EDBBB5C00F86626 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCA6F5A1EDBBB5C00F86626 /* ViewController.swift */; };
-		1BCA6F5E1EDBBB5C00F86626 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BCA6F5C1EDBBB5C00F86626 /* Main.storyboard */; };
 		1BCA6F611EDBBB5C00F86626 /* TwitterCreation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1BCA6F5F1EDBBB5C00F86626 /* TwitterCreation.xcdatamodeld */; };
 		1BCA6F631EDBBB5C00F86626 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BCA6F621EDBBB5C00F86626 /* Assets.xcassets */; };
 		1BCA6F661EDBBB5C00F86626 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BCA6F641EDBBB5C00F86626 /* LaunchScreen.storyboard */; };
@@ -38,8 +36,6 @@
 /* Begin PBXFileReference section */
 		1BCA6F551EDBBB5C00F86626 /* TwitterCreation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterCreation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BCA6F581EDBBB5C00F86626 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1BCA6F5A1EDBBB5C00F86626 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1BCA6F5D1EDBBB5C00F86626 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1BCA6F601EDBBB5C00F86626 /* TwitterCreation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TwitterCreation.xcdatamodel; sourceTree = "<group>"; };
 		1BCA6F621EDBBB5C00F86626 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BCA6F651EDBBB5C00F86626 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -102,9 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				1BCA6F581EDBBB5C00F86626 /* AppDelegate.swift */,
-				1BCA6F5A1EDBBB5C00F86626 /* ViewController.swift */,
 				1BD489991EE33BE500279774 /* HomeController.swift */,
-				1BCA6F5C1EDBBB5C00F86626 /* Main.storyboard */,
 				1BCA6F621EDBBB5C00F86626 /* Assets.xcassets */,
 				1BCA6F641EDBBB5C00F86626 /* LaunchScreen.storyboard */,
 				1BCA6F671EDBBB5C00F86626 /* Info.plist */,
@@ -241,7 +235,6 @@
 			files = (
 				1BCA6F661EDBBB5C00F86626 /* LaunchScreen.storyboard in Resources */,
 				1BCA6F631EDBBB5C00F86626 /* Assets.xcassets in Resources */,
-				1BCA6F5E1EDBBB5C00F86626 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,7 +260,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BD4899A1EE33BE500279774 /* HomeController.swift in Sources */,
-				1BCA6F5B1EDBBB5C00F86626 /* ViewController.swift in Sources */,
 				1BCA6F611EDBBB5C00F86626 /* TwitterCreation.xcdatamodeld in Sources */,
 				1BCA6F591EDBBB5C00F86626 /* AppDelegate.swift in Sources */,
 			);
@@ -305,14 +297,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1BCA6F5C1EDBBB5C00F86626 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1BCA6F5D1EDBBB5C00F86626 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1BCA6F641EDBBB5C00F86626 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
