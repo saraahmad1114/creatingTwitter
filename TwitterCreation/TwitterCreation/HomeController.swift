@@ -8,6 +8,8 @@
 
 import UIKit
 
+
+//Configuring the custom collectionView cell
 class wordCell: UICollectionViewCell{
 
     override init(frame: CGRect){
@@ -40,7 +42,7 @@ class wordCell: UICollectionViewCell{
         }
 }
 
-
+//Configuring the header and footer in the collectionView
 class HomeController: UICollectionViewController, UICollectionViewDelegateFlowLayout{
     
     let cellId = "cellId"
@@ -67,25 +69,33 @@ class HomeController: UICollectionViewController, UICollectionViewDelegateFlowLa
         return cell
     }
     
+    //sizing the collectionView Cell 
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        
         return CGSize(width: view.frame.width, height: 50)
     }
     
+    //distinguishing between the header and the footer
     override func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
-        
-        let header = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: headerId, for: indexPath)
-        
-        header.backgroundColor = .blue
-        
-        return header
+        if kind == UICollectionElementKindSectionHeader {
+            let header = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: self.headerId, for: indexPath)
+            header.backgroundColor = .blue
+            return header
+        }
+            
+        else{
+            let footer = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: self.footerId, for: indexPath)
+            footer.backgroundColor = .green
+            return footer
+        }
     }
     
+    
+    //Sizing the header
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForHeaderInSection section: Int) -> CGSize {
-        
         return CGSize(width: view.frame.height, height: 50)
     }
     
+    //Sizing the footer
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForFooterInSection section: Int) -> CGSize {
         return CGSize(width: view.frame.height, height: 100)
     }
