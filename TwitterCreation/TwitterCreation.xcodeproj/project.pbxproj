@@ -15,6 +15,7 @@
 		1BCA6F661EDBBB5C00F86626 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BCA6F641EDBBB5C00F86626 /* LaunchScreen.storyboard */; };
 		1BCA6F711EDBBB5C00F86626 /* TwitterCreationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCA6F701EDBBB5C00F86626 /* TwitterCreationTests.swift */; };
 		1BCA6F7C1EDBBB5C00F86626 /* TwitterCreationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCA6F7B1EDBBB5C00F86626 /* TwitterCreationUITests.swift */; };
+		1BD4899A1EE33BE500279774 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD489991EE33BE500279774 /* HomeController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		1BCA6F771EDBBB5C00F86626 /* TwitterCreationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwitterCreationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BCA6F7B1EDBBB5C00F86626 /* TwitterCreationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterCreationUITests.swift; sourceTree = "<group>"; };
 		1BCA6F7D1EDBBB5C00F86626 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BD489991EE33BE500279774 /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				1BCA6F581EDBBB5C00F86626 /* AppDelegate.swift */,
 				1BCA6F5A1EDBBB5C00F86626 /* ViewController.swift */,
+				1BD489991EE33BE500279774 /* HomeController.swift */,
 				1BCA6F5C1EDBBB5C00F86626 /* Main.storyboard */,
 				1BCA6F621EDBBB5C00F86626 /* Assets.xcassets */,
 				1BCA6F641EDBBB5C00F86626 /* LaunchScreen.storyboard */,
@@ -263,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BD4899A1EE33BE500279774 /* HomeController.swift in Sources */,
 				1BCA6F5B1EDBBB5C00F86626 /* ViewController.swift in Sources */,
 				1BCA6F611EDBBB5C00F86626 /* TwitterCreation.xcdatamodeld in Sources */,
 				1BCA6F591EDBBB5C00F86626 /* AppDelegate.swift in Sources */,
